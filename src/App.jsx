@@ -112,7 +112,7 @@ function App() {
               />
             </div>
             <h1 className="text-2xl font-bold text-white tracking-tight drop-shadow-md">Azura</h1>
-             <h3 className="text-2xl font-bold text-white tracking-tight drop-shadow-md">The Water View Resort</h3>
+             <h5 className="text-2xl font-bold text-white tracking-tight drop-shadow-md">The Water View Resort</h5>
             <p className="text-white/80 text-sm mt-1 font-medium max-w-md">Experience tranquility at our premium lakefront escape in Wayanad. Modern A-frame architecture meets breathtaking 180° water views.</p>
           </motion.div>
 
