@@ -33,11 +33,16 @@ function App() {
     <div className="relative min-h-screen w-full overflow-hidden text-white font-sans selection:bg-[#7a6af6]">
 
       <div className="fixed inset-0 -z-10">
-        <img
-          src="/bg2.gif"
-          alt="Nature Background"
-          className="w-full h-full object-cover "
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/bg-video.MP4" type="video/mp4" />
+        </video>
+
         <div className="absolute inset-0 bg-black/20 backdrop-blur-[3px]" />
       </div>
 
@@ -51,7 +56,7 @@ function App() {
         >
           <div className="w-24 h-24 mb-4 rounded-full border-2 border-white/20 shadow-2xl overflow-hidden">
             <img
-              src="/profile.png"
+              src="/profile.webp"
               alt="Profile"
               className="w-full h-full object-cover"
             />
