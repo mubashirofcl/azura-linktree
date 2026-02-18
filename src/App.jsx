@@ -115,7 +115,7 @@ function App() {
   Azura
 </h1>
 
-<h2 className="text-xl md:text-2xl font-semibold text-white/90 mt-3 drop-shadow-sm">
+<h2 className="text-xl md:text-2xl font-semibold text-white/90 mt-2 drop-shadow-sm">
   The Water View Resort
 </h2>
 
