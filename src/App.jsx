@@ -34,7 +34,7 @@ function App() {
 
       <div className="fixed inset-0 -z-10">
         <img
-          src="../../public/bg2.gif"
+          src="/bg2.gif"
           alt="Nature Background"
           className="w-full h-full object-cover "
         />
@@ -51,7 +51,7 @@ function App() {
         >
           <div className="w-24 h-24 mb-4 rounded-full border-2 border-white/20 shadow-2xl overflow-hidden">
             <img
-              src="../../public/profile.png"
+              src="/profile.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />
